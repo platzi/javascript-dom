@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 0;
+}
+
+#task-manager {
+  background: #fff;
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#task-form {
+  margin-bottom: 20px;
+}
+
+#task-input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#task-list li {
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-theme #task-manager {
+  background: #222;
+  color: #fff;
+}
+
+.dark-theme #task-list li {
+  background: #444;
+}
